@@ -1,0 +1,37 @@
+/* Navbar Container */
+.navbar {
+   background: linear-gradient(to right, #dbeafe, #c5f5d3);
+  padding: 20px;
+  text-align: center;  /* light border bottom */
+}
+
+/* Navbar UL */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Links */
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;            /* dark text */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.navbar ul li a:hover {
+  color: #2563eb;            /* blue on hover */
+  transform: scale(1.05);    /* slight zoom */
+}
+
+/* Active Link */
+.navbar ul li a.active {
+  color: #16a34a;            /* green for active page */
+}
