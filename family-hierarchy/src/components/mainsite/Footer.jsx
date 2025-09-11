@@ -1,5 +1,4 @@
 
-
 const Footer = () => {
   return (
     <>
@@ -20,7 +19,6 @@ const Footer = () => {
     <a href="#">FaceBook</a> | <a href="#">LinkedIn</a> | <a href="#">InstaGram</a> | <a href="#">Twitter</a>
     </div>
    
-
     <div className="footer-bottom">
   <p>© 2025 Family Hierarchy System. All rights reserved.</p>
 </div>
