@@ -1,5 +1,6 @@
-body{
-      display: flex;
+
+.login-container{
+     display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -7,15 +8,14 @@ body{
 background: linear-gradient(to right, #dbeafe, #c5f5d3);
   flex-wrap: wrap; 
 
-}
 
-.login-container{
- background: #ffffff;
-  padding: 6vw;
-  border-radius: 20px;
+}
+.login-box{
+  
+   background: linear-gradient(to right, #dbeafe, #c5f5d3);
+padding: 5vw 5vw;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 .form-group{
   margin-bottom: 15px;
@@ -51,7 +51,7 @@ background: linear-gradient(to right, #dbeafe, #c5f5d3);
   background-color: #1e40af;
 }
 
-/* Sign up text */
+
 .signup-text {
   margin-top: 15px;
   font-size: 14px;

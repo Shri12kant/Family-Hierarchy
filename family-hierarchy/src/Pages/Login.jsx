@@ -30,6 +30,8 @@ const Login = () => {
           </button>
         </form>
 
+        <input type="checkbox"/>
+
         <p className="signup-text">
           Don’t have an account? <a href="#">Sign Up</a>
         </p>
