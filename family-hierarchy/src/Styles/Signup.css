@@ -1,14 +1,14 @@
-.login-container {
+.signup-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 60px 20px;
+  padding: 40px 20px;
   background: linear-gradient(to right, #dbeafe, #c5f5d3);
   flex-wrap: wrap;
 }
 
-.login-box {
+.signup-box {
 
   background: linear-gradient(to right, #dbeafe, #c5f5d3);
   padding: 5vw 5vw;
@@ -35,19 +35,19 @@
   font-size: 14px;
 }
 
-.login-btn {
+.signup-btn {
   width: 100%;
   padding: 10px;
-  background-color: #64f9b1;
+  background-color: #10e55b;
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.login-btn:hover {
+.signup-btn:hover {
   background-color: #1e40af;
 }
 
