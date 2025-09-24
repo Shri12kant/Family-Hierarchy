@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.user-navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px 20px;
+  background: linear-gradient(to right, #dbeafe, #c5f5d3); 
+  border-bottom: 1px solid #ddd;
+}
+
+.user-navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* text aur image ke beech gap */
+}
+
+.user-navbar .logo img {
+  height: 50px; /* logo size adjust */
+}
+
+.user-navbar .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 2vw;
+}
+.user-navbar .avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.user-info .username{
+    font-weight: 800;
+}

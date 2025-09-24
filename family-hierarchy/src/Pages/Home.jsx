@@ -9,6 +9,10 @@ import "../Styles/FamilySection.css";
 import "../Styles/Footer.css";
 import "../Styles/Login.css";
 import "../Styles/Signup.css";
+import "../Styles/UserNavbar.css";
+import "../Styles/UserSidebar.css"
+
+
 
 
 function Home() {

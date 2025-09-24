@@ -23,7 +23,6 @@ const Login = () => {
               required
             />
           </div>
-
           <button type="submit" className="login-btn">
             Login
           </button>
